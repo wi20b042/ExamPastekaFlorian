@@ -10,7 +10,7 @@ public class MainTest
         //arrange
 
         //act
-        var actual  :String = Main.GetTestString();
+        var actual  String = Main.GetTestString();
 
         //assert
         Assertions.assertEquals(expected "maven test", actual);
